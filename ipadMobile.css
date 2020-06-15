@@ -1,6 +1,10 @@
 
 /*  Mobile */
-@media only screen and (max-width: 459px){
+@media only screen and (max-width: 740px){
+    .div_logo > img{
+        width: 60vw;
+        max-width: 333px;
+    }
     .div_main{
         flex-wrap: wrap;
     }
@@ -15,6 +19,8 @@
     .div_nav .div_menu{
         display: block;
         height: 10px;
+        margin-top: 15px;
+        margin-right: 5%;
     }
     .div_nav .nav_header{
         display: none; 
@@ -23,10 +29,8 @@
         margin-right: 30px;
     }
     input:checked + .main .main_nav{
-        transition: 2s;
+        transition: 1s;
         margin-top: 5px;
-        border-bottom: 1px solid silver;
-        border-top: 1px solid silver;
         
     }
 }
@@ -36,6 +40,11 @@
 
 /*  Ipad */
 @media only screen and (max-width: 770px) and (min-width: 460px) {
+    .div_logo > img{
+        width: 60vw;
+        max-width: 333px;
+        
+    }
     .div_main{
         flex-wrap: wrap;
     }
