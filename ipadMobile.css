@@ -110,14 +110,17 @@
     .div_vagas > div{
         flex-wrap: nowrap;
     }
-    .div_vagas > div > div#div_status{
+    .div_vagas > div > #div_status{
         margin-left: 84%;
+        flex-wrap: nowrap;
     }
-    .div_vagas > div > div#div_status_pro{
+    .div_vagas > div > #div_status_pro{
         margin-left: 82%;
+        flex-wrap: nowrap;
     }
-    .div_vagas > div > div#div_status_pre{
+    .div_vagas > div > #div_status_pre{
         margin-left: 82%;
+        flex-wrap: nowrap;
     }
     .section_parceiro > div{
         margin-left: 10vw;
