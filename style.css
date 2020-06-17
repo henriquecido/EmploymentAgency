@@ -132,6 +132,7 @@ input {
     width: 100%;
     margin-bottom: -10px;
     border-top: 1px solid #c0c0c0;
+    height: 30vh;
 }
 .carousel-cell > img{
     width: 100%;
@@ -246,7 +247,7 @@ input {
     border-bottom: 1px solid black;
     margin: 10px;
 }
-.div_vagas > div > div#div_status{
+.div_vagas > div > #div_status{
     padding: 5px 10px;
     margin-left: 85%;
     width: 70px;
@@ -258,8 +259,8 @@ input {
     border-radius: 2px;
     background-color: rgb(103, 179, 27);
 }
-.div_vagas > div > div#div_status_pro{
-    padding: 5px 10px;
+.div_vagas > div > #div_status_pro{
+    padding: 5px 5px;
     margin-left: 83%;
     width: 80px;
     height: 12px;
@@ -270,8 +271,8 @@ input {
     border-radius: 2px;
     background-color: royalblue;
 }
-.div_vagas > div > div#div_status_pre{
-    padding: 5px 10px 5px 20px;
+.div_vagas > div > #div_status_pre{
+    padding: 5px 5px 5px 20px;
     margin-left: 83%;
     width: 70px;
     height: 12px;

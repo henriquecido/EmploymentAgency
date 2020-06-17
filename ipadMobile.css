@@ -68,7 +68,6 @@
     input:checked + .main .main_nav{
         transition: 1s;
         margin-top: 5px;
-        
     }
 }
 /* -- -- --*/
@@ -112,13 +111,13 @@
         flex-wrap: nowrap;
     }
     .div_vagas > div > div#div_status{
-        margin-left: 83%;
+        margin-left: 80%;
     }
     .div_vagas > div > div#div_status_pro{
-        margin-left: 80%;
+        margin-left: 76%;
     }
     .div_vagas > div > div#div_status_pre{
-        margin-left: 80%;
+        margin-left: 76%;
     }
     .section_parceiro > div{
         margin-left: 10vw;
