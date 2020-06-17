@@ -167,7 +167,7 @@ input {
     padding: 20px 40px;
     font-size: 18px;
 }
-.secao_left > div > img#img_bng1 {
+.secao_left > div > #img_bng1 {
     width: 90%;
     padding-left: 40px;
 }
@@ -188,12 +188,12 @@ input {
     margin-top: 50px;
     min-width: 200px;
 }
-.secao_left > div > div > img#img_bng2{
+.secao_left > div > div > #img_bng2{
     width: 40%;
     padding-left: 40px;
     max-height: 760px;
 }
-.secao_left > div > div > img#img_bng3{
+.secao_left > div > div > #img_bng3{
     display: none;
 }
 .secao_rigth {

@@ -49,18 +49,22 @@
     }
     .div_vagas > div > div#div_status{
         margin-left: 82%;
+        flex-wrap: nowrap;
     }
     .div_vagas > div > div#div_status_pro{
         margin-left: 80%;
+        flex-wrap: nowrap;
     }
     .div_vagas > div > div#div_status_pre{
         margin-left: 80%;
+        flex-wrap: nowrap;
     }
     .section_parceiro > div > div > img#logo_uvv{
         width: 35vw; 
     }
     .section_parceiro > div > #inst {
         min-width: 400px;
+        
     }
     .section_parceiro > div > #emp {
         min-width: 400px;
