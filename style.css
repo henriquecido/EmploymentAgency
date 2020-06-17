@@ -253,6 +253,7 @@ input {
     width: 66px;
     height: 12px;
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 20px;
     border: 1px solid black;
@@ -266,6 +267,7 @@ input {
     height: 12px;
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 2px;
