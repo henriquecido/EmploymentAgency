@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
 }
 .div_login{
     background-color: #FFF;
@@ -191,14 +192,14 @@ input {
     flex-direction: column;
 }
 .secao_right > h3{
-    margin: 40px 10px;
+    margin: 60px 10px;
     padding: 20px;
 }
 .div_vagas{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 40px;
     overflow-y: scroll;
     
     height: 800px;
@@ -296,22 +297,48 @@ input {
 .section_parceiro{
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 .section_parceiro > div{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 30px;
 }
-.section_parceiro > div > div {
+.section_parceiro > div > #inst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: auto;
+    width: 33vw;
+    max-width: 700px;
+}
+.section_parceiro > div > #emp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 20px;
     height: auto;
-    width: auto;
+    width: 30vw;
+    max-width: 600px;
 }
-.section_parceiro > div > div > img{
+.section_parceiro > div > div > div > img{
+    width: 6vw; 
+    margin: 5px;
+    min-width: 120px;
+    max-width: 200px;
+}
+.section_parceiro > div > div > div > #uvv, #ufes{
     width: 15vw; 
+    min-width: 170px;
+    max-width: 250px;
 }
-.section_parceiro > div > div > img#vale{
-    width: 10vw; 
+.section_parceiro > div > div > div > #vale{
+    margin-top: 15px; 
+}
+.section_parceiro > div > div > div > #phidelis{
+    margin-top: -5px;
 }
 .footer{
     grid-area: footer;

@@ -48,16 +48,22 @@
         flex-wrap: nowrap;
     }
     .div_vagas > div > div#div_status{
-        margin-left: 75%;
+        margin-left: 82%;
     }
     .div_vagas > div > div#div_status_pro{
-        margin-left: 72%;
+        margin-left: 80%;
     }
     .div_vagas > div > div#div_status_pre{
-        margin-left: 72%;
+        margin-left: 80%;
     }
     .section_parceiro > div > div > img#logo_uvv{
         width: 35vw; 
+    }
+    .section_parceiro > div > #inst {
+        min-width: 400px;
+    }
+    .section_parceiro > div > #emp {
+        min-width: 400px;
     }
     input:checked + .main .main_nav{
         transition: 1s;
@@ -114,6 +120,15 @@
     .div_vagas > div > div#div_status_pre{
         margin-left: 80%;
     }
+    .section_parceiro > div{
+        margin-left: 10vw;
+    }
+    .section_parceiro > div > #inst {
+        min-width: 400px;
+    }
+    .section_parceiro > div > #emp {
+        min-width: 400px;
+    }
 }
 /* -- -- --*/
 
@@ -136,3 +151,18 @@
     }
 }
 /* -- -- --*/
+
+/* Ajuste width logo empresa*/
+@media only screen and (max-width: 868px) and (min-width: 770px) {
+
+    .section_parceiro > div > div > div > img{
+        margin: 0px;
+        min-width: 100px;
+    }
+    .section_parceiro > div > div > div > #uvv, #ufes{
+        margin: 0px;
+        min-width: 150px;
+    }
+}
+
+/* -- -- -- */
