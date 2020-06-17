@@ -15,6 +15,8 @@
     .div_main .secao_left{
         width: 100%;
         min-width: 340px;
+        border-right: none;
+        border-bottom: 1px solid #c0c0c0;
     }
     .div_nav .div_menu{
         display: block;
@@ -27,6 +29,35 @@
     }
     .header .div_nav{
         margin-right: 30px;
+    }
+    .secao_left > div > div {
+        flex-wrap: wrap;
+    }
+    .secao_left > div > img#img_bng1  {
+        padding-left: 20px;
+    }
+    .secao_left > div > div >  img#img_bng2{
+        display: none;
+    }
+    .secao_left > div > div > img#img_bng3{
+        display: block;
+        width: 90%;
+        max-height: 760px;
+    }
+    .div_vagas > div{
+        flex-wrap: nowrap;
+    }
+    .div_vagas > div > div#div_status{
+        margin-left: 75%;
+    }
+    .div_vagas > div > div#div_status_pro{
+        margin-left: 72%;
+    }
+    .div_vagas > div > div#div_status_pre{
+        margin-left: 72%;
+    }
+    .section_parceiro > div > div > img#logo_uvv{
+        width: 35vw; 
     }
     input:checked + .main .main_nav{
         transition: 1s;
@@ -43,7 +74,6 @@
     .div_logo > img{
         width: 60vw;
         max-width: 333px;
-        
     }
     .div_main{
         flex-wrap: wrap;
@@ -55,6 +85,54 @@
     .div_main .secao_left{
         width: 100%;
         min-width: 340px;
+        border-right: none;
+        border-bottom: 1px solid #c0c0c0;
+    }
+    .secao_left > div > div {
+        flex-wrap: wrap;
+    }
+    .secao_left > div > div >  img#img_bng2{
+        display: none;
+    }
+    .secao_left > div > div > img#img_bng3{
+        display: block;
+        width: 90%;
+        max-height: 760px;
+    }
+    .div_vagas > div{
+        width: 60%;
+    }
+    .div_vagas > div{
+        flex-wrap: nowrap;
+    }
+    .div_vagas > div > div#div_status{
+        margin-left: 83%;
+    }
+    .div_vagas > div > div#div_status_pro{
+        margin-left: 80%;
+    }
+    .div_vagas > div > div#div_status_pre{
+        margin-left: 80%;
+    }
+}
+/* -- -- --*/
+
+/* Ipad Pro*/
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+    .div_vagas > div{
+        width: 60%;
+    }
+    .div_vagas > div{
+        flex-wrap: nowrap;
+    }
+    .div_vagas > div > div#div_status{
+        margin-left: 75%;
+    }
+    .div_vagas > div > div#div_status_pro{
+        margin-left: 70%;
+    }
+    .div_vagas > div > div#div_status_pre{
+        margin-left: 70%;
     }
 }
 /* -- -- --*/

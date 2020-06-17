@@ -125,7 +125,7 @@ input {
     justify-content: center;
     height: 100%;
     border-top: 1px solid #C0C0C0;
-    padding-top: 5px;
+    padding: 20px;
     
 }
 .secao_rigth{
@@ -135,8 +135,7 @@ input {
     min-width: 300px;
     min-height: 700px;
     max-width: 750px;
-    border-top: 1px solid #C0C0C0;
-    border-bottom: 1px solid #C0C0C0;
+    padding: 20px;
 }
 .secao_left{
     margin:5px;
@@ -145,8 +144,174 @@ input {
     min-width:400px;
     min-height: 700px;
     max-width: 900px;
-    border-top: 1px solid #C0C0C0;
-    border-bottom: 1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
+    padding: 20px;
+}
+.secao_left > h3{
+    margin: 30px 10px;
+    padding: 15px;
+}
+.secao_left > div > p {
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+.secao_left > div > img#img_bng1 {
+    width: 90%;
+    padding-left: 40px;
+}
+.secao_left > div > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.secao_left > div > div > div {
+    display: flex;
+    flex-direction: column;
+}
+.secao_left > div > div > div > p{
+    text-indent: 30px;
+    text-align: justify;
+    padding:  0px 40px;
+    font-size: 18px;
+    margin-top: 50px;
+    min-width: 200px;
+}
+.secao_left > div > div > img#img_bng2{
+    width: 40%;
+    padding-left: 40px;
+    max-height: 760px;
+}
+.secao_left > div > div > img#img_bng3{
+    display: none;
+}
+.secao_rigth {
+    display: flex;
+    flex-direction: column;
+}
+.secao_right > h3{
+    margin: 40px 10px;
+    padding: 20px;
+}
+.div_vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    overflow-y: scroll;
+    
+    height: 800px;
+}
+.div_vagas::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+    background-color: #FFF;
+}
+.div_vagas::-webkit-scrollbar{
+	width: 4px;
+    background-color: #F5F5F5;
+    height: 4px;
+}
+.div_vagas::-webkit-scrollbar-thumb{
+	background-color: #c0c0c0;
+}
+.div_vagas > div{
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+    padding-top: 20px;
+    margin: 10px;
+    min-width: 270px;
+    max-width: 459px;
+    max-height: 503px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid #c0c0c0;
+}
+.div_vagas > div > div{
+    padding-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+.div_vagas > div > div#div_status{
+    padding: 5px 10px;
+    margin-left: 85%;
+    width: 70px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(103, 179, 27);
+}
+.div_vagas > div > div#div_status_pro{
+    padding: 5px 10px;
+    margin-left: 83%;
+    width: 80px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: royalblue;
+}
+.div_vagas > div > div#div_status_pre{
+    padding: 5px 10px 5px 20px;
+    margin-left: 83%;
+    width: 70px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.div_vagas > div > img{
+    width: 230px;
+    height: 140px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.div_vagas > div > div > p,h4{
+    padding: 0px 24px;
+}
+.div_vagas > div > div#div_cand {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    width: 40%;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    background-color: deepskyblue;
+}
+.section_parceiro{
+    display: flex;
+    flex-direction: column;
+}
+.section_parceiro > div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section_parceiro > div > div {
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+.section_parceiro > div > div > img{
+    width: 15vw; 
+}
+.section_parceiro > div > div > img#vale{
+    width: 10vw; 
 }
 .footer{
     grid-area: footer;
