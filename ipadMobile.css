@@ -165,4 +165,18 @@
     }
 }
 
+
+@media only screen and (min-width: 1600px){
+    .section_parceiro > div > div > div > img{
+        margin-right: 30px;
+        min-width: 100px;
+        max-width: 200px;
+    }
+    .section_parceiro > div > div > div > #uvv, #ufes{
+        margin-right: 0px;
+        min-width: 150px;
+        max-width: 250px;
+    }
+}
+
 /* -- -- -- */
