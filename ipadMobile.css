@@ -49,11 +49,11 @@
     }
     .div_vagas > div > div#div_status{
         margin-left: 82%;
-        
+        width: 90px;
     }
     .div_vagas > div > div#div_status_pro{
         margin-left: 80%;
-        
+        width: 100px;
     }
     .div_vagas > div > div#div_status_pre{
         margin-left: 80%;
