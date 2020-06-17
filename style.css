@@ -249,8 +249,8 @@ input {
 }
 .div_vagas > div > #div_status{
     padding: 5px 10px;
-    margin-left: 85%;
-    width: 70px;
+    margin-left: 87%;
+    width: 66px;
     height: 12px;
     display: flex;
     align-items: center;
@@ -260,9 +260,9 @@ input {
     background-color: rgb(103, 179, 27);
 }
 .div_vagas > div > #div_status_pro{
-    padding: 5px 5px;
-    margin-left: 83%;
-    width: 80px;
+    padding: 5px 2px;
+    margin-left: 85%;
+    width: 90px;
     height: 12px;
     display: flex;
     align-items: center;
@@ -272,9 +272,9 @@ input {
     background-color: royalblue;
 }
 .div_vagas > div > #div_status_pre{
-    padding: 5px 5px 5px 20px;
-    margin-left: 83%;
-    width: 70px;
+    padding: 5px 0px 5px 20px;
+    margin-left: 85%;
+    width: 75px;
     height: 12px;
     display: flex;
     align-items: center;
