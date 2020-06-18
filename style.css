@@ -9,7 +9,7 @@ body {
     "secao"
     "footer";
     grid-template-columns: 1fr ;
-    grid-template-rows: 190px 1fr 500px 100px;
+    grid-template-rows: 190px 1fr 600px 100px;
 }
 h3{
     margin: 0px 10px 60px 10px;
@@ -423,24 +423,51 @@ input {
     background: #FAFAFA;
     width: 90%;
     margin-left: 4%;
+    max-width: 1016px; 
 }
-.nav-carousel .carousel-cell {
+.carousel-cel {
     margin: 20px;
     width: 30%;
-    background-color: cornflowerblue;
+    border: 1px solid #c0c0c0;
+    min-width: 316px;
+    max-width: 600px;
+    height: 38vh;
+    min-height: 348px;
 }
-.nav-carousel .carousel-cell > div {
+.carousel-cel > div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
-.nav-carousel .carousel-cell > div > div{
-    background-color: crimson;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+.carousel-cel > div > #imagem{
+    background-color: #fff;
+    width: 100%;
+}
+.carousel-cel > div > #conteudo{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+}
+#imagem > img{
+    width: 100%;
+    height: 100%;
+    min-width: 316px;
+    min-height: 172px;
+    max-height: 286px;
+    border-bottom: 3px solid #c0c0c0;
+}
+#conteudo > h4{
+    padding: 0px 10px;
+    margin-top: 10px;
+    min-height: 30px;
+}
+#conteudo > div >p{
+    padding: 10px 10px;
+    border-top: 1px solid #c0c0c0;
+    margin: 0px 0px;
 }
 .footer{
     grid-area: footer;

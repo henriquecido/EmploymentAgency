@@ -69,6 +69,12 @@
     .section_parceiro > div > #emp {
         min-width: 400px;
     }
+    .nav-carousel {
+        
+    }
+    .nav-carousel .carousel-cell {
+        
+    }
     input:checked + .main .main_nav{
         transition: 1s;
         margin-top: 5px;
@@ -138,6 +144,10 @@
     .section_parceiro > div > #emp {
         min-width: 400px;
     }
+    .carousel-cel {
+        max-height: 360px;
+        
+    }
 }
 /* -- -- --*/
 
@@ -161,6 +171,11 @@
     .div_vagas > div > #div_status_pre{
         margin-left: 74%;
     }
+    .carousel-cel {
+        max-height: 370px;
+        
+    }
+    
 }
 /* -- -- --*/
 
@@ -188,6 +203,12 @@
         margin-right: 0px;
         min-width: 150px;
         max-width: 150px;
+    }
+    .nav-carousel{
+        max-width: 2000px;
+    }
+    .carousel-cel{
+        max-width: 300px;
     }
     
 }
