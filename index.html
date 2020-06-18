@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javas.js"></script>
-    
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="ipadMobile.css">
-    <link rel="shortcut icon" href="image/logoicon.png" >
-
+    <link rel="shortcut icon" href="image/logoicon2.png" >
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-
     <title>RH Vitória</title>
 </head>
 <body>
     <header class="header">
         <div class="div_logo">
-            <img src="image/logo.png">
+            <img src="image/logo2.png">
         </div>
         <div class="div_acesso">
             <div class="div_login">
@@ -52,7 +50,7 @@
                 </nav>
             </div>
         </section>
-        <div class="main-carousel" data-flickity='{ "autoPlay": 4000 ,"wrapAround": true }'>
+        <div class="main-carousel" data-flickity='{ "autoPlay": 4000 ,"wrapAround": true , "pageDots": false }'>
             <div class="carousel-cell"><img src="image/loop image/slide1.jpg"></div>
             <div class="carousel-cell"><img src="image/loop image/slide2.jpg"></div>
             <div class="carousel-cell"><img src="image/loop image/slide3.jpg"></div>
@@ -60,7 +58,7 @@
         </div>
         <div class="div_main">    
             <div class="secao_left">
-                <h3>Quem Somos</h3>
+                <h3 id="header_quemSomos">Quem Somos</h3>
                 <div> 
                     <img id="img_bng1" src="image/background.jpg">   
                     <p>
@@ -79,58 +77,67 @@
                         </div>
                     </div>
                 </div>
+                <section class="secao_porque">
+                    <h3 id="header_escolha">Porque escolher a RH Vitória ?</h3>
+                        <div>
+                            <div><img src="image/iconchecked.png">Seriedade, honestidade e transparência</div>
+                            <div><img src="image/iconchecked.png">Parceria duradoura, com excelência nos serviços</div>
+                            <div><img src="image/iconchecked.png">Amplo cadastro em todas as funções e áreas</div>
+                            <div><img src="image/iconchecked.png">Reposição de funcionario demitido em até 48h</div>
+                        </div>
+                </section>
             </div>
             <div class="secao_rigth">
                 <h3>Processos Seletivos</h3>
                 <div class="div_vagas">    
                     <div>
-                        <div id="div_status">Em Aberto</div>
+                        <div id="div_status"><strong>Em Aberto</strong></div>
                         <img src="image/dpulogo.png">
                         <div>
                             <h4>DEFENSORIA PÚBLICA DA UNIÃO (DPU) - LINHARES</h4>
                             <p><strong>Período de inscrição: de 08/05/2020 até 31/12/2020</strong> - Retomada do Processo Seletivo - Edital 01/2020</p>
                         </div>
-                        <div id="div_cand">Candidate-se</div>
+                        <div id="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
-                        <div id="div_status_pro">Em Processo</div>
+                        <div id="div_status_pro"><strong>Em Processo</strong></div>
                         <img src="image/correioslogo.png">
                         <div>
                             <h4>INSCRIÇÃO PARA OPORTUNIDADE DE MENOR APRENDIZ NOS CORREIOS</h4>
                             <p><strong>Período de inscrição: de 10/04/2020 até 29/05/2020</strong> - Retomada do Processo Seletivo - Edital 09/2020</p>
                         </div>
-                        <div id="div_cand">Candidate-se</div>
+                        <div id="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
-                        <div id="div_status">Em Aberto</div>
+                        <div id="div_status"><strong>Em Aberto</strong></div>
                         <img src="image/caixalogo.jpg">
                         <div>
                             <h4>PRÉ-INSCRIÇÃO PARA OPORTUNIDADE DE ESTÁGIO NA CAIXA</h4>
                             <p><strong>Período de inscrição: de 26/05/2020 até 22/03/2021</strong> - Retomada do Processo Seletivo - Edital 03/2020</p>
                         </div>
-                        <div id="div_cand">Candidate-se</div>
+                        <div id="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
-                        <div id="div_status_pre">Previsto</div>
+                        <div id="div_status_pre"><strong>Previsto</strong></div>
                         <img src="image/logoDETRAN.png">
                         <div>
                             <h4>INSCRIÇÃO PARA O CONCURSO DETRAN ES - 2021</h4>
                             <p><strong>Previsão de inscrição: de 26/08/2020 até 22/09/2021</strong> - Retomada do Processo Seletivo - Edital 01/2021</p>
                         </div>
-                        <div id="div_cand">Candidate-se</div>
+                        <div id="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
-                        <div id="div_status_pro">Em Processo</div>
+                        <div id="div_status_pro"><strong>Em Processo</strong></div>
                         <img src="image/logosesa.jpg">
                         <div>
                             <h4>INSCRIÇÃO PARA O PROCESSO SELETIVO SESA ES</h4>
                             <p><strong>Previsão de inscrição: de 10/04/2020 até 08/06/2020</strong> - Retomada do Processo Seletivo - Edital 01/2021</p>
                         </div>
-                        <div id="div_cand">Candidate-se</div>
+                        <div id="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                 </div>
                 <section class="section_parceiro">
-                    <h3>Parceiros</h3>
+                    <h3 id="header_parceiro">Parceiros</h3>
                     <div>    
                         <h4>Institucional</h4>
                         <div id="inst">
@@ -153,6 +160,55 @@
             </div>
         </div>
     </main>
+    <section class="secao">
+        <h3 id="header_noticias">Fique por dentro</h3>
+       
+        <div class="nav-carousel" data-flickity='{ "autoPlay": 5000 ,"wrapAround": true, "initialIndex": 3 }'>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div>
+                    <div><img src="#"></div>
+                    <div><p>olaola</p></div>
+                </div>
+            </div>
+       </div>
+
+    </section>
     <footer class="footer">
     
 

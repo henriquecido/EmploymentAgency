@@ -33,13 +33,13 @@
     .secao_left > div > div {
         flex-wrap: wrap;
     }
-    .secao_left > div > img#img_bng1  {
+    .secao_left > div > #img_bng1  {
         padding-left: 20px;
     }
-    .secao_left > div > div >  img#img_bng2{
+    .secao_left > div > div >  #img_bng2{
         display: none;
     }
-    .secao_left > div > div > img#img_bng3{
+    .secao_left > div > div > #img_bng3{
         display: block;
         width: 90%;
         max-height: 760px;
@@ -47,19 +47,19 @@
     .div_vagas > div{
         flex-wrap: nowrap;
     }
-    .div_vagas > div > div#div_status{
+    .div_vagas > div > #div_status{
         margin-left: 82%;
         width: 90px;
     }
-    .div_vagas > div > div#div_status_pro{
+    .div_vagas > div > #div_status_pro{
         margin-left: 80%;
         width: 100px;
     }
-    .div_vagas > div > div#div_status_pre{
+    .div_vagas > div > #div_status_pre{
         margin-left: 80%;
        
     }
-    .section_parceiro > div > div > img#logo_uvv{
+    .section_parceiro > div > div > #logo_uvv{
         width: 35vw; 
     }
     .section_parceiro > div > #inst {
@@ -100,13 +100,16 @@
     .secao_left > div > div {
         flex-wrap: wrap;
     }
-    .secao_left > div > div >  img#img_bng2{
+    .secao_left > div > div > #img_bng2{
         display: none;
     }
-    .secao_left > div > div > img#img_bng3{
+    .secao_left > div > div > #img_bng3{
         display: block;
         width: 90%;
         max-height: 760px;
+    }
+    .secao_porque > div{
+        margin-left: 10%;
     }
     .div_vagas > div{
         width: 60%;
@@ -140,19 +143,22 @@
 
 /* Ipad Pro*/
 @media only screen and (max-width: 1200px) and (min-width: 800px) {
+    .secao_left > div > div > #img_bng2{
+        margin-top: 40px;
+    }
     .div_vagas > div{
         width: 60%;
     }
     .div_vagas > div{
         flex-wrap: nowrap;
     }
-    .div_vagas > div > div#div_status{
+    .div_vagas > div > #div_status{
         margin-left: 78%;
     }
-    .div_vagas > div > div#div_status_pro{
+    .div_vagas > div > #div_status_pro{
         margin-left: 74%;
     }
-    .div_vagas > div > div#div_status_pre{
+    .div_vagas > div > #div_status_pre{
         margin-left: 74%;
     }
 }
@@ -176,13 +182,14 @@
     .section_parceiro > div > div > div > img{
         margin-right: 30px;
         min-width: 100px;
-        max-width: 200px;
+        max-width: 120px;
     }
-    .section_parceiro > div > div > div > #uvv, #ufes{
+    .section_parceiro > div > div > div > #uvv, #ufes, #vale, #hospital{
         margin-right: 0px;
         min-width: 150px;
-        max-width: 250px;
+        max-width: 150px;
     }
+    
 }
 
 /* -- -- -- */

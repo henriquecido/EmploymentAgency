@@ -6,9 +6,42 @@ body {
     grid-template-areas: 
     "header" 
     "main"
+    "secao"
     "footer";
     grid-template-columns: 1fr ;
-    grid-template-rows: 190px 1fr 100px;
+    grid-template-rows: 190px 1fr 500px 100px;
+}
+h3{
+    margin: 0px 10px 60px 10px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    border-bottom: 1px solid #c7b59b;
+    border-radius: 25px 25px 25px 0px;
+    box-shadow: 5px 5px 14px -7px #c7b59b;
+    width: 200px;
+}
+#header_parceiro, #header_quemSomos{
+    width: 140px;
+}
+#header_noticias{
+    border-bottom: 1px solid #c7b59b;
+    border-radius: 25px;
+    box-shadow: 5px 5px 14px -7px #c7b59b;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+#header_escolha{
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 13px;
 }
 .header{
     grid-area: header;
@@ -51,6 +84,8 @@ body {
     font-size: 13px;
     font-weight: 300;
     margin: 2px;
+    color: #111955;
+    font-family: 'Montserrat', sans-serif;
 }
 .div_login > img{
     margin-right: 5px;
@@ -70,10 +105,11 @@ body {
 }
 .nav_header > a {
     text-decoration: none;
-    color: #17202A;
     border: 1px solid #C0C0C0;
     padding: 10px;
     margin: 5px;
+    color: #111955;
+    font-family: 'Montserrat', sans-serif;
 }
 .div_menu{
     display: none;
@@ -87,21 +123,17 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px;
-    padding: 10px;
 }
 .nav{
     height: auto;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
-    
 }
 .main_nav{
     margin-top: -262px;
     transition: 1s;
     padding:20px;
-    
 }
 .nav_main{
     display: flex;
@@ -115,7 +147,8 @@ input {
     min-width: 250px;
     max-width: 400px;
     text-decoration: none;
-    color: black;
+    color: #111955;
+    font-family: 'Montserrat', sans-serif;
     border: 1px solid #C0C0C0;
     padding: 10px;
     margin: 5px;
@@ -138,15 +171,6 @@ input {
     width: 100%;
     height: 30vh;
 }
-.secao_rigth{
-    margin:5px;
-    width: 40%;
-    height: 100%;
-    min-width: 300px;
-    min-height: 700px;
-    max-width: 750px;
-    padding: 20px;
-}
 .secao_left{
     margin:5px;
     width: 60%;
@@ -157,15 +181,12 @@ input {
     border-right: 1px solid #C0C0C0;
     padding: 20px;
 }
-.secao_left > h3{
-    margin: 30px 10px;
-    padding: 15px;
-}
 .secao_left > div > p {
     text-indent: 30px;
     text-align: justify;
     padding: 20px 40px;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 .secao_left > div > #img_bng1 {
     width: 90%;
@@ -186,7 +207,8 @@ input {
     padding:  0px 40px;
     font-size: 18px;
     margin-top: 50px;
-    min-width: 200px;
+    min-width: 238px;
+    font-family: 'Montserrat', sans-serif;
 }
 .secao_left > div > div > #img_bng2{
     width: 40%;
@@ -196,21 +218,41 @@ input {
 .secao_left > div > div > #img_bng3{
     display: none;
 }
-.secao_rigth {
+.secao_porque{
     display: flex;
     flex-direction: column;
 }
-.secao_right > h3{
-    margin: 60px 10px;
+.secao_porque > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.secao_porque > div > div {
+    font-size: 16px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+}
+.secao_porque > div > div > img{
+    width: 35px;
+    margin-bottom: -10px;
+}
+.secao_rigth{
+    margin:5px;
+    width: 40%;
+    height: 100%;
+    min-width: 300px;
+    min-height: 700px;
+    max-width: 750px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .div_vagas{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
     overflow-y: scroll;
-    
     height: 800px;
 }
 .div_vagas::-webkit-scrollbar-track{
@@ -232,7 +274,7 @@ input {
     padding-top: 20px;
     margin: 10px;
     min-width: 270px;
-    max-width: 459px;
+    max-width: 390px;
     max-height: 503px;
     display: flex;
     justify-content: center;
@@ -242,9 +284,8 @@ input {
     border: 1px solid #c0c0c0;
 }
 .div_vagas > div > div{
-    padding-bottom: 20px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
     margin: 10px;
 }
 .div_vagas > div > #div_status{
@@ -256,9 +297,13 @@ input {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid #17202A ;
     border-radius: 2px;
-    background-color: rgb(103, 179, 27);
+    background-color: #28B463 ;
+    color: #fff ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    z-index: 1;
 }
 .div_vagas > div > #div_status_pro{
     padding: 5px;
@@ -269,41 +314,55 @@ input {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid #17202A ;
     border-radius: 2px;
-    background-color: royalblue;
+    background-color: #2650E0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    z-index: 1;
 }
 .div_vagas > div > #div_status_pre{
-    padding: 5px 0px 5px 20px;
+    padding: 5px 0px 5px 10px;
     margin-left: 85%;
     width: 75px;
     height: 12px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid #17202A;
     border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fff;
+    font-size: 14px;
+    z-index: 1;
 }
 .div_vagas > div > img{
     width: 230px;
     height: 140px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: -40px 10px 20px 0px;
+    
 }
-.div_vagas > div > div > p,h4{
-    padding: 0px 24px;
+.div_vagas > div > div > p{
+    padding: 8px 24px 0px 24px;
+    border-top:1px solid #c0c0c0 ;
+    color: #17202A;
 }
-.div_vagas > div > div#div_cand {
+.div_vagas > div > div > h4{
+    padding: 5px 24px 0px 24px;
+    color: #17202A;
+}
+.div_vagas > div > #div_cand {
     display: flex;
     justify-content: center;
     padding: 5px 10px;
     width: 40%;
     margin: 0px;
-    border: 1px solid black;
-    border-radius: 1px;
+    border: 1px solid #17202A ;
+    border-radius: 2px;
     margin-bottom: 20px;
-    background-color: deepskyblue;
+    background-color: #2650E0;
+    color: #fff;
 }
 .section_parceiro{
     display: flex;
@@ -314,7 +373,7 @@ input {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 30px;
+    margin: -20px 0px 0px 30px;
 }
 .section_parceiro > div > #inst {
     display: flex;
@@ -348,8 +407,40 @@ input {
 .section_parceiro > div > div > div > #vale{
     margin-top: 15px; 
 }
-.section_parceiro > div > div > div > #phidelis{
+.section_parceiro > div > div > div > #phidelis, #autoglass{
     margin-top: -5px;
+}
+.secao {
+    grid-area: secao;
+    background-color: #fff;
+    border-top: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-carousel {
+    background: #FAFAFA;
+    width: 90%;
+    margin-left: 4%;
+}
+.nav-carousel .carousel-cell {
+    margin: 20px;
+    width: 30%;
+    background-color: cornflowerblue;
+}
+.nav-carousel .carousel-cell > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.nav-carousel .carousel-cell > div > div{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 .footer{
     grid-area: footer;
