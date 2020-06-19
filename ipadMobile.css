@@ -70,7 +70,7 @@
         min-width: 400px;
     }
     .carousel-cel {
-        max-height: 370px;
+        max-height: 378px;
     }
     input:checked + .main .main_nav{
         transition: 1s;
