@@ -56,7 +56,7 @@
         width: 100px;
     }
     .div_vagas > div > #div_status_pre{
-        margin-left: 80%;
+        margin-left: 84%;
        
     }
     .section_parceiro > div > div > #logo_uvv{
@@ -69,11 +69,8 @@
     .section_parceiro > div > #emp {
         min-width: 400px;
     }
-    .nav-carousel {
-        
-    }
-    .nav-carousel .carousel-cell {
-        
+    .carousel-cel {
+        max-height: 370px;
     }
     input:checked + .main .main_nav{
         transition: 1s;
