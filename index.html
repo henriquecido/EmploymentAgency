@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="javas.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="javas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -16,6 +19,27 @@
 </head>
 <body>
     <header class="header">
+        <div class="div_header_contato">
+            <div id="image">
+                <img src="image/relogio.png">
+            </div>
+            <div id="tempo">
+                <i id="hora"></i>
+                <i id="data"></i>
+            </div>
+            <div id="icones">
+                <a href="#"><img src="image/facebook.png"></a>
+                <a href="#"><img src="image/instagram.png"></a>
+                <a href="#"><img src="image/linkedin.png"></a>
+                <a href="#"><img id="whats" src="image/whatsapp.png"></a>
+            </div>
+            <div id="outros">
+                <a href="#"><strong>Blog</strong></a>
+                <a href="#"><strong>Unidades</strong></a>
+                <a href="#"><strong>Parceiros</strong></a>
+                <a href="#"><strong>Contato</strong></a>
+            </div>
+        </div>
         <div class="div_logo">
             <img src="image/logo2.png">
         </div>
@@ -30,9 +54,9 @@
                     <a href="Instituicao.html" target="_blank">Instituição</a>
                     <a href="Vagas.html" target="_blank">Vagas</a>
                 </nav>
-                <div class="div_menu">
+                <div class="div_menu" onclick="teste();">
                     <label class="label_img" for="menu">
-                        <img src="image/menu-aberto.png">
+                        <img id="img_menu" src="image/menu_azul.png">
                     </label>
                 </div>
             </div>
@@ -50,7 +74,7 @@
                 </nav>
             </div>
         </section>
-        <div class="main-carousel" data-flickity='{ "autoPlay": 4000 ,"wrapAround": true , "pageDots": false }'>
+        <div class="main-carousel" data-flickity='{ "autoPlay": 3000 ,"wrapAround": true , "pageDots": false }'>
             <div class="carousel-cell"><img src="image/loop image/slide1.jpg"></div>
             <div class="carousel-cell"><img src="image/loop image/slide2.jpg"></div>
             <div class="carousel-cell"><img src="image/loop image/slide3.jpg"></div>
@@ -97,7 +121,7 @@
                             <h4>DEFENSORIA PÚBLICA DA UNIÃO (DPU) - LINHARES</h4>
                             <p><strong>Período de inscrição: de 08/05/2020 até 31/12/2020</strong> - Retomada do Processo Seletivo - Edital 01/2020</p>
                         </div>
-                        <div id="div_cand"><strong>Candidate-se</strong></div>
+                        <div class="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
                         <div id="div_status_pro"><strong>Em Processo</strong></div>
@@ -106,7 +130,7 @@
                             <h4>INSCRIÇÃO PARA OPORTUNIDADE DE MENOR APRENDIZ NOS CORREIOS</h4>
                             <p><strong>Período de inscrição: de 10/04/2020 até 29/05/2020</strong> - Retomada do Processo Seletivo - Edital 09/2020</p>
                         </div>
-                        <div id="div_cand"><strong>Candidate-se</strong></div>
+                        <div class="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
                         <div id="div_status"><strong>Em Aberto</strong></div>
@@ -115,7 +139,7 @@
                             <h4>PRÉ-INSCRIÇÃO PARA OPORTUNIDADE DE ESTÁGIO NA CAIXA</h4>
                             <p><strong>Período de inscrição: de 26/05/2020 até 22/03/2021</strong> - Retomada do Processo Seletivo - Edital 03/2020</p>
                         </div>
-                        <div id="div_cand"><strong>Candidate-se</strong></div>
+                        <div class="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
                         <div id="div_status_pre"><strong>Previsto</strong></div>
@@ -124,7 +148,7 @@
                             <h4>INSCRIÇÃO PARA O CONCURSO DETRAN ES - 2021</h4>
                             <p><strong>Previsão de inscrição: de 26/08/2020 até 22/09/2021</strong> - Retomada do Processo Seletivo - Edital 01/2021</p>
                         </div>
-                        <div id="div_cand"><strong>Candidate-se</strong></div>
+                        <div class="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                     <div>
                         <div id="div_status_pro"><strong>Em Processo</strong></div>
@@ -133,7 +157,7 @@
                             <h4>INSCRIÇÃO PARA O PROCESSO SELETIVO SESA ES</h4>
                             <p><strong>Previsão de inscrição: de 10/04/2020 até 08/06/2020</strong> - Retomada do Processo Seletivo - Edital 01/2021</p>
                         </div>
-                        <div id="div_cand"><strong>Candidate-se</strong></div>
+                        <div class="div_cand"><strong>Candidate-se</strong></div>
                     </div>
                 </div>
                 <section class="section_parceiro">
@@ -160,10 +184,9 @@
             </div>
         </div>
     </main>
-    <section class="secao">
+    <section class="secao_noticia">
         <h3 id="header_noticias">Fique por dentro</h3>
-       
-        <div class="nav-carousel" data-flickity='{ "autoPlay": 5000 ,"wrapAround": true, "initialIndex": 3 }'>
+        <div class="nav-carousel" data-flickity='{ "autoPlay": 3000 ,"wrapAround": true, "initialIndex": 3  }'>
             <div class="carousel-cel">
                 <div>
                     <div id="imagem"><img src="image/loop image/slide11.jpg"></div>
@@ -242,7 +265,66 @@
                 </div>
             </div>
        </div>
-
+       <section class="secao_artigos">
+            <section class="secao_artigo">
+                <div class="div_art_maior">
+                    <img src="image/imagemG1.jpg">
+                    <div>
+                        <h4>Startup Gupy recebe investimento de R$ 40 milhões durante a pandemia</h4>
+                        <p>Em um momento que empresas congelam contratações e buscam alternativas para sobreviver, a startup de recrutamento e seleção Gupy conseguiu nadar contra a maré. 
+                        </p>
+                    </div>
+                </div>
+                <div class="div_menores">
+                    <div class="div_art_menor">
+                        <img src="image/imagemP1.jpg">
+                        <div>
+                            <h4>Ex-recrutador do Google dá dicas para se sair bem na entrevista online</h4>
+                             <p>Kevin Grice mostra a importância de estar preparado na entrevista de emprego remota
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="div_art_menor">
+                        <img src="image/imagemP11.jpg">
+                        <div>
+                            <h4>É preciso repensar rapidamente os métodos de trabalho, diz Sofia Esteves</h4>
+                             <p>A pós-pandemia de covid-19 é incerto tem que saber lidar com as novas formas de trabalho .
+                            </p> 
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <section class="secao_artigo2">
+                <div class="div_2_maior">
+                    <img src="image/imagemG2.jpg">
+                    <div>
+                        <h4>7 lições para líderes enfrentando mudanças e crises</h4>
+                        <p>No segundo dia da conferência HR.Rocks!, o tema foi “Liderança Transformadora”, com entrevistas, workshops e palestras voltadas para a formação de profissionais de recursos humanos.
+                        </p>
+                    </div>
+                </div>
+                <div class="div_menores2">
+                    <div class="div_2_menor">
+                        <img src="image/imagemP2.jpg">
+                        <div>
+                            <h4>4 competências e 5 desafios para as empresas serem mais inovadoras</h4>
+                             <p>“Não inovar é uma irresponsabilidade”, Eduardo Albuquerque.
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="div_2_menor">
+                        <img src="image/imagemP22.jpg">
+                        <div>
+                            <h4>Este tipo de líder vai perder espaço por causa da pandemia, segundo CEO</h4>
+                             <p> coronavírus conseguiu quebrar a resistência dentro das empresas.
+                            </p> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
     </section>
     <footer class="footer">
     
