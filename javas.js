@@ -11,15 +11,11 @@ function tempo(){
 /* -- -- --  */
 
 /* Transformei uma div em um botão, ao click ele atraves do location faz a mudanã de pagina */
-$(document).ready(function(){
-    $(".div_cand").click(function() {
-        window.location.href = 'Vagas.html' ;
-    });
-});
+
 
 $(document).ready(function(){
     $(".div_login").click(function() {
-        window.location.href = 'Vagas.html' ;
+        window.location.href = 'Candidato.html' ;
     });
 });
 /* -- -- -- */

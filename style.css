@@ -9,7 +9,7 @@ body {
     "secao"
     "footer";
     grid-template-columns: 1fr ;
-    grid-template-rows: 190px 1fr auto 100px;
+    grid-template-rows: 190px 1fr auto auto;
 }
 h3{
     margin: 0px 10px 60px 10px;
@@ -77,10 +77,10 @@ h4{
     margin-top: 2px;
 }
 .div_header_contato > #icones  > a > img{
-    width: 22px;
+    width: 18px;
     margin-left: 8px;
 }
-.div_header_contato > #icones  > img:hover{
+.div_header_contato > #icones  > a >img:hover{
     cursor: pointer;
     opacity: 0.8;
 }
@@ -305,6 +305,7 @@ input {
 .secao_porque > div > div > img{
     width: 35px;
     margin-bottom: -10px;
+    margin-right: 10px;
 }
 .secao_rigth{
     margin:5px;
@@ -501,7 +502,7 @@ input {
 .nav-carousel {
     background: #FAFAFA;
     width: 90%;
-    margin-left: 4%;
+    margin: 0px 4%;
     max-width: 1016px; 
 }
 .carousel-cel {
@@ -557,6 +558,7 @@ input {
     margin-top: 60px;
     min-width: 500px;
     max-width: 2000px;
+    margin-bottom: 40px;
 }
 .div_menores{
     display: flex;
@@ -683,5 +685,96 @@ input {
     grid-area: footer;
     background-color: #FFF;
     border-top: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_contato{
+    width: 60%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 402px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.footer_contato > div{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_contato > #contato > h4{
+    border-bottom: 1px solid #c7b59b;
+    padding: 5px;
+}
+.footer_contato > #social > h4{
+    border-bottom: 1px solid #c7b59b;
+    padding: 5px;
+}
+.footer_contato > #contato > div > img{
+    width: 28px;
+}
+.footer_contato > #contato > div > strong{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 15px;
+}
+.footer_contato > #contato > div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.footer_contato > #social > div{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 5px;
+}
+.footer_contato > #social > div > a {
+    text-decoration: none;
+}
+.footer_contato > #social > div > a > strong{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 15px;
     
+}
+.footer_contato > #social > div > a > strong:hover{
+cursor: pointer;
+    color: #4859db;
+}
+.footer_contato > #social > div > img{
+    width: 26px;
+}
+.footer_contato > #social >div >  #twitter{
+    width: 35px;
+    margin-left: -5px;
+}
+.footer_logo{
+    width: 230px;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer_logo > #descricao {
+    margin-left: 30px;
+}
+.footer_logo > #descricao {
+    font-size: 18px;
+}
+.footer_logo > #descricao >strong {
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.footer_logo > div > img{
+    width: 260px;
+}
+.footer_logo > div > h4{
+    min-width: 200px;
 }

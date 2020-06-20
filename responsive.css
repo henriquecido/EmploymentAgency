@@ -98,6 +98,15 @@
     .div_header_contato > #outros {
         display: none;
     }
+    .footer .footer_contato{
+        height:100vh;
+        max-height: 692px;
+        width: 60%;
+    }
+    .footer_logo{
+        margin-top: 20px;
+        margin-left: -40px;
+    }
     input:checked + .main .main_nav{
         transition: 1s;
         margin-top: 5px;
@@ -201,6 +210,14 @@
     .div_header_contato > #outros {
         display: none;
     }
+    .footer_contato{
+        max-height: 602px;
+        width: 100%;
+    }
+    .footer_logo{
+        margin-top: 20px;
+    }
+    
 }
 /* -- -- --*/
 
@@ -240,6 +257,13 @@
     }
     .div_2_maior{
         width: 80%;
+    }
+    .footer_contato{
+        max-height: 602px;
+        width: 100%;
+    }
+    .footer_logo{
+        margin-top: 20px;
     }
 }
 /* -- -- --*/
@@ -319,5 +343,6 @@
         display: none;
     }
 }
+
 
 /* -- -- -- */

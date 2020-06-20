@@ -3,15 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="javas.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ipadMobile.css">
-    <title>Bimestral</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="image/logoicon2.png" >
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>RH Vitória</title>
 </head>
 <body>
     <header class="header">
+        <div class="div_header_contato">
+            <div id="image">
+                <img src="image/relogio.png">
+            </div>
+            <div id="tempo">
+                <i id="hora"></i>
+                <i id="data"></i>
+            </div>
+            <div id="icones">
+                <a href="https://www.facebook.com/"><img src="image/facebook.png"></a>
+                <a href="https://www.instagram.com/"><img src="image/instagram.png"></a>
+                <a href="https://www.linkedin.com/"><img src="image/linkedin.png"></a>
+                <a href="#"><img id="whats" src="image/whatsapp.png"></a>
+            </div>
+            <div id="outros">
+                <a href="#"><strong>Blog</strong></a>
+                <a href="#"><strong>Unidades</strong></a>
+                <a href="#"><strong>Parceiros</strong></a>
+                <a href="#"><strong>Contato</strong></a>
+            </div>
+        </div>
         <div class="div_logo">
-            <img src="image/logo.png">
+            <img src="image/logo2.png">
         </div>
         <div class="div_acesso">
             <div class="div_login">
@@ -24,9 +54,9 @@
                     <a href="Instituicao.html" target="_blank">Instituição</a>
                     <a href="Vagas.html" target="_blank">Vagas</a>
                 </nav>
-                <div class="div_menu">
+                <div class="div_menu" onclick="teste();">
                     <label class="label_img" for="menu">
-                        <img src="image/menu-aberto.png">
+                        <img id="img_menu" src="image/menu_azul.png">
                     </label>
                 </div>
             </div>
@@ -59,9 +89,30 @@
         </div>
     </main>
     <footer class="footer">
-    
-
-
+        <div class="footer_contato">
+            <div id="contato">
+                <h4>Contato</h4>
+                <div><img src="image/email.png"><strong>rhvitoria@vitoria.br</strong></div>
+                <div><img src="image/telefone.png"><strong>(27) 3356-7878</strong></div>
+                <div><img src="image/whatsapp.png"><strong>(27) 9 9833-4532</strong></div>
+            </div>
+            <div class="footer_logo">
+                <div>
+                    <img src="image/logo2.png">
+                </div>
+                <div id="descricao">
+                    <h4>RH Vitória © Copyright 2020</h4>
+                    <strong>Todos os direitos reservados</strong>
+                    <strong>Projetado por Henriquecido</strong>
+                </div>
+            </div>
+            <div id="social">
+                <h4>Rede Social</h4>
+                <div><img id="twitter" src="image/twitter.png"><a href="#"><strong>Twitter</strong></a></div>
+                <div><img src="image/facebook.png"><a href="#"><strong>Facebook</strong></a></div>
+                <div><img src="image/instagram.png"><a href="#"><strong>Instagram</strong></a></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
