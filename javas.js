@@ -17,6 +17,13 @@ $(document).ready(function(){
     $(".div_login").click(function() {
         window.location.href = 'Candidato.html' ;
     });
+
+    $(".div_cand").click(function() {
+        window.location.href = 'Candidato.html' ;
+    });
+    $(".div_canda").click(function() {
+        window.location.href = 'Candidato.html' ;
+    });
 });
 /* -- -- -- */
 
@@ -42,3 +49,49 @@ Flickity.prototype.stopPlayer = function() {
 };
 
 /* -- -- -- */
+
+
+/* Filtro da pagina de vagas  */
+
+
+/* Menu lateral, valido com ifelse se já foi selecionado o filtro, se sim, ele quer limpar */
+var selecionado = true;
+$(document).ready(function(){
+    
+    $(".botao").click(function() {
+        if(selecionado){
+            var categoria = $(this).html().toUpperCase();
+
+            $('#teste div div').each(function() { 
+                if($(this).html().toUpperCase().indexOf(categoria) === -1) {
+                    $(this).hide();
+                }
+            });
+            selecionado = false;
+        }else {
+            $('#teste div div ').show();
+            selecionado = true;
+        } 
+    });
+});
+
+/* -- -- -- */
+
+
+/* Input de pesquisa , com limpador dos dados */
+function limpar() {
+    $('#teste div div').show();
+}
+
+function buscar() {
+    var termo = $('#pesquisa').val().toUpperCase();
+    $('#teste div div').each(function() { 
+       if($(this).html().toUpperCase().indexOf(termo) === -1) {
+           $(this).hide();
+       }
+    });
+}
+/* -- -- -- */
+
+
+/* -- -- --  */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,11 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylevagas.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="shortcut icon" href="image/logoicon2.png" >
+    <link rel="shortcut icon" href="image/logoicon2.png">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>RH Vitória</title>
 </head>
+
 <body>
     <header class="header">
         <div class="div_header_contato">
@@ -52,7 +55,7 @@
                     <a href="index.html" target="_self">Home</a>
                     <a href="Aluno.html" target="_blank">Aluno</a>
                     <a href="Instituicao.html" target="_blank">Instituição</a>
-                    <a href="Vagas.html" target="_self">Vagas</a>
+                    <a href="Vagas.html" target="_blank">Vagas</a>
                 </nav>
                 <div class="div_menu" onclick="teste();">
                     <label class="label_img" for="menu">
@@ -74,17 +77,249 @@
                 </nav>
             </div>
         </section>
-        <div class="div_main">    
-            <div class="secao_left">
-                
+        <div class="main-carousel" data-flickity='{ "autoPlay": 4000 ,"wrapAround": true , "pageDots": false }'>
+            <div class="carousel-cell"><img src="image/loop image/slide1.jpg"></div>
+            <div class="carousel-cell"><img src="image/loop image/slide2.jpg"></div>
+            <div class="carousel-cell"><img src="image/loop image/slide3.jpg"></div>
+            <div class="carousel-cell"><img src="image/loop image/slide4.jpg"></div>
+        </div>
+        <div class="div_main_main">
 
+            <div class="div_busca">
+                <div>
+                    <h4>Pesquisar Vagas</h4>
+                    <div>
+                        <input type="search" id="pesquisa" oninput="limpar()" placeholder="Advogado, CLT, Coorde..">
+                        <button type="button" onclick="buscar()"><img src="image/procurar.png">Buscar</button>
+                    </div>
 
+                </div>
             </div>
-            <div class="secao_rigth">
-                
+            <div class="div_main_vagas">
+                <div class="div_main_menu">
+                    <div>
+                        <div id="div_filtro">
+                            <img src="image/filtro.png"><h2>Filtros</h2>
+                        </div>
+                        <h4>Cidade</h4>
+                        <input type="checkbox" id="vi" class="vi">
+                        <label for="vi">
+                            <div class="botao" id="vi">Vitória</div>
+                        </label>
+                        <input type="checkbox" id="ca" class="ca">
+                        <label for="ca">
+                            <div class="botao" id="ca">Cariacica</div>
+                        </label>
+                        <input type="checkbox" id="se" class="se">
+                        <label for="se">
+                            <div class="botao" id="se">Serra</div>
+                        </label>
+                        <input type="checkbox" id="vl" class="vl">
+                        <label for="vl">
+                            <div class="botao" id="vl">Vila Velha</div>
+                        </label>
+                    </div>
+                    <div>
+                        <h4>Tipo de Contrato</h4>
+                        <input type="checkbox" id="est" class="est">
+                        <label for="est">
+                            <div class="botao" id="est">Estágio</div>
+                        </label>
+                        <input type="checkbox" id="clt" class="clt">
+                        <label for="clt">
+                            <div class="botao" id="clt">CLT</div>
+                        </label>
+                        <input type="checkbox" id="pj" class="pj">
+                        <label for="pj">
+                            <div class="botao" id="pj">PJ</div>
+                        </label>
+                        <input type="checkbox" id="temp" class="temp">
+                        <label for="temp">
+                            <div class="botao" id="temp">Temporário</div>
+                        </label>
+                    </div>
+                    <div>
+                        <h4>Nível</h4>
+                        <input type="checkbox" id="an" class="an">
+                        <label for="an">
+                            <div class="botao" id="an">Analista</div>
+                        </label>
+                        <input type="checkbox" id="tec" class="tec">
+                        <label for="tec">
+                            <div class="botao" id="tec">Técnico</div>
+                        </label>
+                        <input type="checkbox" id="op" class="op">
+                        <label for="op">
+                            <div class="botao" id="op">Operacional</div>
+                        </label>
+                        <input type="checkbox" id="co" class="co">
+                        <label for="co">
+                            <div class="botao" id="co">Coordenador</div>
+                        </label>
+                    </div>
 
+                </div>
+                <div class="div_main_divulga" id="teste">
+                    <div>
+                        <div>
+                            <i>Publicada 21/06/20</i>
+                            <img src="image/logo empresas/heach.png">
+                            <h4>Analista de Infraestrutura de TI</h4>
+                            <h5>Nível: <span>Analista</span></h5>
+                            <h5>Empresa: <span>Heach</span></h5>
+                            <h5>Contrato: <span>CLT</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> Orientar , desenvolver e garantir a qualidade dos
+                                sistemas;Recomendar e monitorar padrões e controles de TI;Manutenção de servidores e
+                                equipamentos associados;Procedimentos de monitoração e acompanhamento de rede;Avaliar
+                                soluções junto a fornecedores e novas tecnologias;Implementar, monitorar e atualizar
+                                ambiente .
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Refeição no local, Vale alimentação de R$ 310,00, Convênio
+                                farmácia.
+                            </p>
+                            <h5>Salário: R$ 1.900,00</h5>
+                            <h5>Vitória, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i>Publicada 19/06/20</i>
+                            <img src="image/logo empresas/logo-lince.png">
+                            <h4>Assistente de Marketing</h4>
+                            <h5>Nível: <span>Assistente</span></h5>
+                            <h5>Empresa: <span>LINCE</span></h5>
+                            <h5>Contrato: <span>PJ</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> Elaboração mensal do planejamento estratégico de
+                                mídias sociais para geração de leads do comercial;
+                                Criação de campanhas de mídia paga;
+                                Criação de peças gráficas online e offline;
+                                Gerenciamento de site e SEO;
+                                Suporte na estruturação e lançamento de produtos digitais;
+                                Gerar relatórios de performance.
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Refeição no local, Vale alimentação de R$ 200,00,Seguro de
+                                Vida.
+                            </p>
+                            <h5>Salário: R$ 1.500,00</h5>
+                            <h5>Vila Velha, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i>Publicada 20/06/20</i>
+                            <img src="image/logo empresas/cityrh.png">
+                            <h4>Técnico Eletro Eletrônico Jr </h4>
+                            <h5>Nível: <span>Técnico</span></h5>
+                            <h5>Empresa: <span>CITYRH</span></h5>
+                            <h5>Contrato: <span>CLT</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> Realizará análise do equipamento de energia e
+                                elaboração do laudo técnico;
+                                Realizará manutenção preventiva, preditiva e corretiva nos equipamentos de energia;
+                                Realizará instalação, comissionamento e “start up” dos equipamentos de energia quando
+                                solicitado;
+                                Irá oferecer suporte técnico ao cliente (fone, “in loco”, e-mail);
+                                Fará relatórios de atendimento externo (nº de horas trabalhadas, deslocamento, serviços
+                                executados) e preenchimento dos protocolos de testes das máquinas atestando a liberação.
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Vale alimentação de R$ 400,00, Seguro de vida, Convênio
+                                farmácia.
+                            </p>
+                            <h5>Salário: R$ 1.254,00</h5>
+                            <h5>Vitória, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i>Publicada 13/06/20</i>
+                            <img src="image/logo empresas/aguia.png">
+                            <h4>Consultor de Vendas Online</h4>
+                            <h5>Nível: <span>Analista</span></h5>
+                            <h5>Empresa: <span>DIVISÃO COMÉRCIO DO GRUPO ÁGUIA BRANCA</span></h5>
+                            <h5>Contrato: <span>CLT</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> utrir os Leads através dos sistemas de vendas com
+                                informações sobre o veículo ou serviços, a fim de acompanhar o cliente em sua intenção
+                                futura de compra;
 
+                                Apresentar o produto ao cliente por meio de descrição das especificações do produto;
 
+                                Direcionar o cliente ao Consultor de Vendas de Showroom, bem como apoiar o Consultor na
+                                conclusão da venda, dentre outras atividades.
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Assistência médica, Assistência odontológica, Comissões,
+                                Vale-refeição, Vale-transporte.
+                            </p>
+                            <h5>Salário: R$ 1.440,00</h5>
+                            <h5>Serra, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i>Publicada 16/06/20</i>
+                            <img src="image/logo empresas/aviento.png">
+                            <h4>Gerente de Restaurante</h4>
+                            <h5>Nível: <span>Coordenador</span></h5>
+                            <h5>Empresa: <span>Aviento GastroPizza</span></h5>
+                            <h5>Contrato: <span>PJ</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> Responsável por gerir a equipe e garantir o
+                                funcionamento dos processos de atendimento, produção e expedição de pedidos.
+                                Gerenciamento
+                                da escala de trabalho da equipe e contratação. Gerenciamento rotinas e processos.
+                                Relatórios
+                                gerenciais diários. Controle de compras e estoques. Manutenção do restaurante. Buscar
+                                melhorias operacionais. Desenvolver equipes de alta performance. Transmitir a cultura,
+                                políticas e práticas da empresa.
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Plano de Saúde (100% gratuito para o colaborador);
+                                Plano Odontológico;
+                                Participação nos Lucros e Resultados;
+                            </p>
+                            <h5>Salário: A combinar</h5>
+                            <h5>Vila Velha, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <i>Publicada 18/06/20</i>
+                            <img src="image/logo empresas/appa.jfif">
+                            <h4>Auxiliar de Escritório</h4>
+                            <h5>Nível: <span>Operacional</span></h5>
+                            <h5>Empresa: <span>APPA EMPREGOS</span></h5>
+                            <h5>Contrato: <span>Temporário</span></h5>
+                            <p>
+                                <strong>O que você vai fazer:</strong> Responsável por gerir a equipe e garantir o
+                                funcionamento dos processos de atendimento, Redigir e revisar textos, secretariar
+                                reuniões,
+                                atender e efeturar chamadas telefonicas, providenciar transporte, pesquisar sobre:
+                                passagens, hospedagem e roteiros de viagem, etc...
+                            </p>
+                            <p>
+                                <strong>Benefícios:</strong> Auxílio Creche;
+                                Vale Alimentação ou Refeição;
+                                Gympass;
+                                Reembolso de KM / Despesas de viagens;
+                                Seguro de Vida.
+                            </p>
+                            <h5>Salário: 1.050,00</h5>
+                            <h5>Serra, ES</h5>
+                            <div class="div_canda"><strong>Candidate-se</strong></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -115,4 +350,5 @@
         </div>
     </footer>
 </body>
+
 </html>
