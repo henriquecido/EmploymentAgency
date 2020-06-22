@@ -1,0 +1,310 @@
+.div_main{
+    flex-wrap: nowrap;
+}
+.secao_cand_left{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.secao_cand_rigth {
+    width: 80%;
+    height:  90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div_escolha {
+    width: 50%;
+    height: 520px;
+    min-width: 300px;
+    max-width: 550px;
+    margin: 30px;
+    border: 1px solid #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 14px -4px #c0c0c0;
+}
+.div_escolha > div{
+    margin: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+}
+.div_escolha > #header{
+    border-bottom: 1px solid darkslateblue;
+    width: 70%;
+    max-width: 300px;
+    font-weight: 700;
+}
+.div_escolha > #cad {
+    border:1px solid orange;
+    max-width: 340px;
+}
+.div_escolha > #cad:hover {
+    cursor: pointer;
+    background-color: #f9ebbe;
+}
+.div_escolha > #ins {
+    border:1px solid #41D145 ;
+    max-width: 340px;
+}
+.div_escolha > #ins:hover {
+    cursor: pointer;
+    background-color: #D0F9D1;
+}
+.div_escolha > #emp {
+    border:1px solid #111955;
+    max-width: 340px;
+}
+.div_escolha > #emp:hover{
+    cursor: pointer;
+    background-color: #D2D7FB ;
+}
+.div_main_login{
+    border: 1px solid #c0c0c0;
+    width: 50%;
+    min-width: 300px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 2px 5px 14px -4px #c0c0c0;
+}
+.div_main_login >div{
+    margin: 10px;
+}
+.div_main_login >div > h4{
+    font-size: 25px;
+}
+.div_main_login >div > input {
+    display: block;
+    width: 220px;
+    height: 12px;
+    padding: 10px;
+}
+.div_main_login >div > h5{
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+}
+.div_entrar{
+    width: 100px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c0c0c0;
+}
+.div_entrar:hover{
+    cursor: pointer;
+    background-color: #f4f0eb;
+    border-color: #b29976;
+}
+.div_possui{
+    margin-top: -10px;
+}
+.div_possui > h4{
+    margin: 0px;
+    font-size: 15px !important;
+    text-align: center;
+}
+.div_possui > div{
+    margin: 10px;
+    width: 150px;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.div_possui > div:hover{
+    cursor: pointer;
+    background-color: #f4f0eb;
+    border-color: #b29976;
+}
+.div_main_cadas{
+    border: 1px solid #c0c0c0;
+    width: 50%;
+    min-width: 300px;
+    max-width: 550px;
+    height: 520px;
+    display: none;
+    box-shadow: 2px 5px 14px -4px #c0c0c0;
+}
+.div_main_cadas >div{
+    margin: 10px;
+    width: 50%;
+    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div_main_cadas >div > h4{
+    font-size: 25px;
+    text-align: center;
+}
+.div_main_cadas >div > input {
+    display: block;
+    width: 90%;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12px;
+    padding: 10px;
+}
+.div_main_cadas >div > h5{
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+}
+.div_entrar2{
+    border: 1px solid #c0c0c0;
+    width: 100px !important;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div_entrar2:hover{
+    cursor: pointer;
+    background-color: #f4f0eb;
+    border-color: #b29976;
+}
+.div_possui2{
+    margin-top: -10px;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div_possui2 > h4{
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px !important;
+}
+.div_possui2 > div{
+    margin: 10px;
+    width:50%;
+    margin-left: 56px;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 2px;
+}
+.div_possui2 > div:hover{
+    cursor: pointer;
+    background-color: #f4f0eb;
+    border-color: #b29976;
+}
+.footer2{
+    grid-area: footer;
+    background-color: #FFF;
+    border-top: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_contato2{
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    max-height: 410px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.footer_contato2 > div{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_contato2 > #contato > h4{
+    border-bottom: 1px solid #c7b59b;
+    padding: 5px;
+}
+.footer_contato2 > #social > h4{
+    border-bottom: 1px solid #c7b59b;
+    padding: 5px;
+}
+.footer_contato2 > #contato > div > img{
+    width: 28px;
+}
+.footer_contato2 > #contato > div > strong{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 15px;
+}
+.footer_contato2 > #contato > div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.footer_contato2 > #social > div{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    margin: 5px;
+}
+.footer_contato2 > #social > div > a {
+    text-decoration: none;
+}
+.footer_contato2 > #social > div > a > strong{
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 15px;
+    
+}
+.footer_contato2 > #social > div > a > strong:hover{
+cursor: pointer;
+    color: #4859db;
+}
+.footer_contato2 > #social > div > img{
+    width: 26px;
+}
+.footer_contato2 > #social >div >  #twitter{
+    width: 35px;
+    margin-left: -5px;
+}
+.footer_logo2{
+    width: 230px;
+    height: 200px;
+    margin-top: 50px;
+}
+.footer_logo2 > #descricao {
+    margin-left: 30px;
+}
+.footer_logo2 > #descricao {
+    font-size: 18px;
+}
+.footer_logo2 > #descricao >strong {
+    font-family: 'Montserrat', sans-serif;
+    color: #111955;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.footer_logo2 > div > img{
+    width: 200px;
+}
+.footer_logo2 > div > h4{
+    min-width: 180px;
+}

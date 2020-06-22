@@ -693,7 +693,7 @@ input {
 .footer_contato{
     width: 60%;
     max-width: 1000px;
-    height: 100%;
+    height: auto;
     max-height: 402px;
     display: flex;
     justify-content: space-around;

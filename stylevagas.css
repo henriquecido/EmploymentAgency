@@ -115,13 +115,12 @@
 .div_main_menu > div > div > h2{
     font-family: 'Montserrat', sans-serif;
     color: #111955;
-    
     padding-left: 0px;
 }
 .div_main_menu > div > h4{
     margin-left: 22px;
     font-size: 20px;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid #b29976;
     padding-bottom: 5px;
     width: 150px;
 }
@@ -136,10 +135,11 @@
     font-size: 16px;
     padding: 5px;
     padding-left: 15px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid #b29976;
     border-radius: 2px;
     margin-right: 10px;
     margin-left: 30px;
+    color: #111955;
 }
 .div_main_menu > div > label > div:hover {
     cursor: pointer;
@@ -210,8 +210,8 @@
 .div_main_divulga{
     
     width: 60%;
-    height: auto;
-    
+    height: 2500px;
+    overflow-y: scroll;
     margin: 20px;
     margin-left: 30px;
     margin-top: 10px;
@@ -219,13 +219,25 @@
     min-height: 910px;
     max-width: 760px;
 }
+.div_main_divulga::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+    background-color: #FFF;
+}
+.div_main_divulga::-webkit-scrollbar{
+	width: 4px;
+    background-color: #F5F5F5;
+    height: 4px;
+}
+.div_main_divulga::-webkit-scrollbar-thumb{
+	background-color: #c0c0c0;
+}
 
 .div_main_divulga > div > div{
     border: 1px solid #c0c0c0;
     box-shadow: 5px 5px 14px -6px #c0c0c0;
     padding: 15px;
     margin-bottom: 20px;
-    
+    margin-right: 12px;
 }
 .div_main_divulga > div > div > h4{
     border-bottom: 1px solid #b29976;
@@ -265,4 +277,19 @@
     max-width: 200px;
     box-shadow: 5px 5px 14px -6px #c0c0c0;
     width: 40%;
+}
+.div_posicao{
+    display: flex;
+    justify-content: space-around;
+}
+.div_posicao > a{
+    text-decoration: none;
+    margin: 10px;
+    border:1px solid #c0c0c0;
+    
+    padding: 10px 15px;
+}
+.div_posicao > a:hover{
+    background-color: #f4f0eb;
+    border-color: #b29976;
 }

@@ -98,21 +98,22 @@
     .div_header_contato > #outros {
         display: none;
     }
-    .footer .footer_contato{
-        height:100vh;
-        max-height: 692px;
-        width: 60%;
-    }
-    .footer_logo{
-        margin-top: 20px;
-        margin-left: -40px;
-    }
     .div_busca > div {
         margin-left: 10%;
     }
     input:checked + .main .main_nav{
         transition: 1s;
         margin-top: 5px;
+    }
+}
+@media only screen and (max-width: 375px) and (min-width: 100px) {
+    .footer{
+        height: 100vh;
+    }
+    .footer .footer_contato{
+        width: 60%;
+        height: 100vh;
+        
     }
 }
 /* -- -- --*/

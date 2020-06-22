@@ -95,3 +95,34 @@ function buscar() {
 
 
 /* -- -- --  */
+
+
+/* Se possui nao possuir conta a tela de login desaparece e a de cadastro aparece*/
+$(document).ready(function(){
+    
+    $(".div_cadastra").click(function() {
+        $(".div_main_login").hide();
+        $(".div_main_cadas").show();
+    });
+
+});
+
+$(document).ready(function(){
+    
+    $(".div_cadastra2").click(function() {
+        $(".div_main_cadas").hide();
+        $(".div_main_login").show();
+    });
+
+});
+
+/* -- -- --  */
+
+
+$(document).ready(function(){
+    
+    $(".div_entrar2").click(function() {
+        alert("Cadastro com Sucesso");
+    });
+
+});
