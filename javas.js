@@ -30,7 +30,6 @@ $(document).ready(function(){
 /* Mudança de imagem ao clicar no botão menu (disponivel na dimensão de mobile/ipad)*/
 var val = true;
 function teste(){
-    
     if(val){
         document.getElementById("img_menu").src = 'image/menu_amarelo.png';
         val = false;
@@ -117,12 +116,3 @@ $(document).ready(function(){
 });
 
 /* -- -- --  */
-
-
-$(document).ready(function(){
-    
-    $(".div_entrar2").click(function() {
-        alert("Cadastro com Sucesso");
-    });
-
-});
