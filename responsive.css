@@ -101,6 +101,9 @@
     .div_busca > div {
         margin-left: 10%;
     }
+     .footer .footer_logo{
+        margin-left: -40px;
+    } 
     input:checked + .main .main_nav{
         transition: 1s;
         margin-top: 5px;
@@ -351,11 +354,3 @@
 
 /* -- -- -- */
 
-/* Tela vagas, input search*/
-@media only screen and (min-width: 850px) and (max-width: 4000px){
-
-    .div_main_divulga{
-        
-    }
-}
-/**/

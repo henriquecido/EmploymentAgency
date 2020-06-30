@@ -4,6 +4,7 @@
 .secao_left > div > #img_left{
     width: 90%;
     margin-left: 20px;
+    min-width: 450px;
 }
 .secao_left > div > #header_left{
     font-size: 22px;
@@ -13,9 +14,6 @@
 }
 .secao_left > div > #header_aluno_p{
     font-size: 17px;
-}
-.secao_right > div > ul {
-
 }
 .secao_right > div > ul > li {
     margin-bottom: 10px;
