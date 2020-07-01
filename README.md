@@ -1,4 +1,4 @@
-# RH-Vitoria
+# RH Vitoria
 
 ![Github rhvitoria](https://github.com/henriquecido/RH-Vitoria/blob/master/image/rhvitoriareadme.png)
 
