@@ -12,7 +12,7 @@ Fiz o seu logo atravês da plataforma Wix Logo Maker, e muitas imagens dentro da
 
 A RH Vitória está responsiva para Web e Mobile, podendo ser facilmente visualizada no link abaixo.
 
-https://henriquecido.github.io/RHVitoria/
+https://henriquecido.github.io/RHVitoria/ProjetoRHVitoria/
 
 Até o momento,
 
