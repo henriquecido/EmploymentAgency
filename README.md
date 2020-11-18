@@ -1,6 +1,6 @@
 # RH Vitória
 
-![Github rhvitoria](https://github.com/henriquecido/RH-Vitoria/blob/master/image/rhvitoriareadme.png)
+![Github rhvitoria](https://github.com/henriquecido/RHVitoria/blob/master/ProjetoRHVitoria/image/rhvitoriareadme.png)
 
 ## Sobre
 
