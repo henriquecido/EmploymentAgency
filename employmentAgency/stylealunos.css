@@ -4,7 +4,6 @@
 .secao_left > div > #img_left{
     width: 90%;
     margin-left: 20px;
-    min-width: 450px;
 }
 .secao_left > div > #header_left{
     font-size: 22px;
@@ -29,4 +28,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #111955;
     font-size: 18px;
+}
+.div_main {
+    min-width: 642px;
 }

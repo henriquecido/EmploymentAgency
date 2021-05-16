@@ -118,6 +118,9 @@
         height: 100vh;
         
     }
+    .secao_left{
+        max-width: 90%;
+    }
 }
 /* -- -- --*/
 

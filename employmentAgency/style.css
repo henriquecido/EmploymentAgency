@@ -8,7 +8,7 @@ body {
     "main"
     "secao"
     "footer";
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 190px 1fr auto auto;
 }
 h3{
@@ -63,6 +63,7 @@ h4{
     margin: 0px;
     position:absolute;
     float: left;
+   
 }
 .div_header_contato > #image > img{
     width: 22px;
@@ -132,6 +133,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .div_login:hover{
     background-color: #f4f0eb;
@@ -243,10 +245,9 @@ input {
 .secao_left{
     margin:5px;
     width: 60%;
-    height: 100%;
     min-width:400px;
     min-height: 700px;
-    max-width: 900px;
+    max-width: 200px;
     border-right: 1px solid #C0C0C0;
     padding: 20px;
 }
@@ -310,7 +311,7 @@ input {
 .secao_rigth{
     margin:5px;
     width: 40%;
-    height: 100%;
+    
     min-width: 300px;
     min-height: 700px;
     max-width: 750px;
@@ -554,7 +555,7 @@ input {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 95vw;
     margin-top: 60px;
     min-width: 500px;
     max-width: 2000px;
@@ -634,7 +635,6 @@ input {
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 80%;
     float: right;
     margin: 30px;
     min-width: 350px;
