@@ -1,23 +1,16 @@
-# RH Vitória
+# EmploymentAgency
 
-![Github rhvitoria](https://github.com/henriquecido/RHVitoria/blob/master/ProjetoRHVitoria/image/rhvitoriareadme.png)
+## About
 
-## Sobre
 
-Criei uma página web para um empresa fictícia, no qual dei o nome de "RH Vitória".
+I created a web page for a fictional company, which I named "RH Vitória". It consists of 5 pages, being home, student, company, vacancies and the candidate's area.
 
-Ela é constituida por 5 páginas, sendo elas home, aluno, empresa, vagas e área do candidato.
-
-Fiz o seu logo atravês da plataforma Wix Logo Maker, e muitas imagens dentro da aplicação eu retirei da internet.
-
-A RH Vitória está responsiva para Web e Mobile, podendo ser facilmente visualizada no link abaixo.
+I made your logo through the Wix Logo Maker platform, and many images inside the application I removed from the internet. RH Vitória is responsive for Web and Mobile, and can be easily viewed at the link below.
 
 https://henriquecido.github.io/RHVitoria/ProjetoRHVitoria/
 
-Até o momento,
+Until now,
 
-Não criei ainda o login/cadastro dos usuários.
-Pela empresa ser fictícia ela não possui rede sociais, sendo assim, suas tags anchor não levam a lugar nenhum.
-Na página de vagas criei um filtro bem simples e as vagas não são muitas, planejo brevemente otimizá-las.
-
-Atenciosamente.
+I haven't created the user login / registration yet.
+Because the company is fictitious, it does not have social networks, so its anchor tags do not lead anywhere.
+On the vacancies page I created a very simple filter and the vacancies are not many, I plan to optimize them briefly.
