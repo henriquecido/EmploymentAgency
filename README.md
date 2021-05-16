@@ -7,7 +7,7 @@ I created a web page for a fictional company, which I named "RH Vitória". It co
 
 I made your logo through the Wix Logo Maker platform, and many images inside the application I removed from the internet. RH Vitória is responsive for Web and Mobile, and can be easily viewed at the link below.
 
-https://henriquecido.github.io/RHVitoria/ProjetoRHVitoria/
+https://henriquecido.github.io/EmploymentAgency/employmentAgency/
 
 Until now,
 
