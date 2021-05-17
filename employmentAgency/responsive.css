@@ -233,6 +233,9 @@
 
 /* Ipad Pro*/
 @media only screen and (max-width: 1200px) and (min-width: 850px) {
+    .secao_left{
+        max-width: 900px;
+    }
     .secao_left > div > div > #img_bng2{
         margin-top: 40px;
     }
@@ -292,6 +295,9 @@
 }
 
 @media only screen and (min-width: 1600px){
+    .secao_left{
+        max-width: 900px;
+    }
     .section_parceiro > div > div > div > img{
         margin-right: 30px;
         min-width: 100px;
