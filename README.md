@@ -1,4 +1,4 @@
-# [:hammer_and_wrench: Working..] EmploymentAgency
+# 🏨 EmploymentAgency
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/joabehenrique/employment-agency?style=flat)
 ![GitHub language count](https://img.shields.io/github/languages/count/joabehenrique/employment-agency?style=flat)
@@ -6,36 +6,33 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/joabehenrique/employment-agency?style=flat)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/joabehenrique/employment-agency?style=flat)
 
-> Simple project developed ...
+> Project developed for a fictional company, which I named "RH Vitória"
 
 ## 💻 Requirements
 
 Before you begin, make sure you have met the following requirements:
 
-- You need the latest version of `...` on your machine.
+- You only need a browser to access the project in `Github Page`.
+If you need installation instructions, [click here](https://www.google.com/intl/pt-BR/chrome/).
 
-If you need installation instructions, [click here]("...").
+## 🚀 Installing EmploymentAgency
 
-## 🚀 Installing ...
-
-To install ..., follow these steps:
-
-1º Clone the repository.
+To install EmploymentAgency, follow these steps:
 
 ```
->  git clone https://github.com/joabehenrique/employment-agency.git
+You don't need to install anything, just open the project in your browser.
 ```
 
-## ☕ Using ...
+## ☕ Using EmploymentAgency
 
-To use ..., follow these steps:
+To use EmploymentAgency, follow these steps:
 
 ```
 I created a web page for a fictional company, which I named "RH Vitória". It consists of 5 pages, being home, student, company, vacancies and the candidate's area.
 
 I made your logo through the Wix Logo Maker platform, and many images inside the application I removed from the internet. RH Vitória is responsive for Web and Mobile, and can be easily viewed at the link below.
 
-https://henriquecido.github.io/EmploymentAgency/employmentAgency/
+https://joabehenrique.github.io/employment-agency/employmentAgency/
 
 Until now,
 
@@ -44,14 +41,14 @@ Because the company is fictitious, it does not have social networks, so its anch
 On the vacancies page I created a very simple filter and the vacancies are not many, I plan to optimize them briefly.
 ```
 
-## 📫 Contributing to Exlivery
+## 📫 Contributing to EmploymentAgency
 
-To contribute to Exlivery, follow these steps:
+To contribute to EmploymentAgency, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <nome_branch>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Send to the original branch: `git push origin Exlivery / <local>`
+4. Send to the original branch: `git push origin EmploymentAgency / <local>`
 5. Create the pull request.
 
 Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)..
@@ -80,5 +77,3 @@ Do you want to be part of this project? Click [here](https://github.com/joabehen
 ## 📝 License
 
 This project is under license. See the [license](https://github.com/joabehenrique/employment-agency/blob/master/LICENSE.md) file for more details.
-
-[⬆ Back to top](#EmploymentAgency)<br>
